@@ -1,0 +1,24 @@
+.container-fluid {
+    background-color: aqua;
+}
+
+.form {
+    background-color: red;
+    .seila {
+        background-color: antiquewhite;
+
+        &:hover {
+            background-color: aqua;
+        }
+
+        .aaa {
+            width: 123px;
+        }
+
+    }
+
+}
+
+.outra_raiz {
+    width: auto;
+}
