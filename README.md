@@ -1,2 +1,2 @@
 # ProjetoTraineePetim
-primeiro projeto de treino em grupo
+Primeiro projeto de treino em grupo
