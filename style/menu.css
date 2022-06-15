@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    border-radius: 10px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+.titulo, h2{
+    margin-top: 20px;
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-size: 20px;
+    
+}
+#sub{
+    text-align: center;
+    color: black;
+}
+
+#botoes{
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: rgb(212, 212, 212);
+    padding-top: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 45%;
+}
+
+@media (max-width: 1800px) {
+    #botoes {
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 1000px){
+    .col-6{
+        width: 40%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .row{
+        margin-left: 25px;
+    }
+}@media (max-width: 767px){
+    .col-6{
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    #botoes{
+        width: 100%;
+    }
+}
+.col-6{
+    font-size: 25px;
+    color: black;
+    padding: 50px;
+    background-color: green;
+    margin: 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 5px; 
+}
+.col-6:hover{
+    background-color: rgb(1, 61, 1);
+    color: rgb(218, 218, 218);
+}
+
+.col-12, #marins{
+    margin: 12px;
+    font-size: 25px;
+    color: black;
+    background-color: green;
+    border-radius: 5px;
+    width: 70%;
+    margin-left: 15%;
+}
+#marins:hover{
+    background-color: rgb(1, 61, 1);
+    color: rgb(218, 218, 218);
+}
+
+.row{
+    justify-content: space-between;
+    text-align: center;
+}
+
+.pe{
+    text-align: center;
+    margin: 50px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(41, 41, 77);
+}
