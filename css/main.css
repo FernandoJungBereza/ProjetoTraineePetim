@@ -1,8 +1,1 @@
-.container {
-  background-color: aqua;
-}
-
-.container .col {
-  background-color: red;
-}
-/*# sourceMappingURL=main.css.map */
+@import "./_erros-sao-tesouros.scss"

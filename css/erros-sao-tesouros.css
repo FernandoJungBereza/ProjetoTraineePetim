@@ -1,0 +1,128 @@
+.Fundo{
+    background-color: #07bc0c;
+}
+.logo{
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.ContainerPrimario{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 40%;
+    background-color: black;
+    border-radius: 30px;
+}
+.form-label{
+    color: white;
+}
+.Email{
+    width: 50%;
+}
+#Email{
+    font-size: 70%;
+}
+#personalizar{
+    margin-top: 30px;
+    display: inline;
+    justify-content: right;
+
+
+}
+.forms, .container{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+}
+.form-image{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    display: inline;
+}
+.Text h6{
+    align-items: center;
+    text-align: center;
+    border-color: white;
+}
+#linha{
+    color: white;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+#linha2{
+    color: white;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+#titulo{
+    width: 85%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    color: grey;
+    margin-top: 40px;
+}
+.row{
+    margin-top: 40px;
+}
+
+#submitButton {
+    width: 85px;
+    height: 50px;
+    align-items: right;
+    margin-right: 8px;
+    background-color: #18bd5b;
+}
+@media(max-width:1570px){
+    .ContainerPrimario{
+        width: 50%;
+    }
+}
+@media(max-width:1270px){
+    .ContainerPrimario{
+        width: 60%;
+    }
+}
+@media(max-width:1060px){
+    .ContainerPrimario{
+        width: 70%;
+    }
+}
+@media(max-width:900px){
+    .ContainerPrimario{
+        width: 80%;
+    }
+}
+@media(max-width:800px){
+    .ContainerPrimario{
+        width: 90%;
+    }
+}
+@media(max-width:770px){
+    .ContainerPrimario{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+        max-width: none;
+    }
+}
+@media(max-width:635px){
+    .row{
+        display: block !important;
+    }
+    .col{
+        margin-top: 40px;
+    }
+    .Email{
+        width: 100%;
+    }
+}
