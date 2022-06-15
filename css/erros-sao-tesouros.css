@@ -1,3 +1,6 @@
+.body{
+    line-height: 4.0 !important;
+}
 .Fundo{
     background-color: #07bc0c;
 }
@@ -14,6 +17,7 @@
     width: 40%;
     background-color: black;
     border-radius: 30px;
+    margin-bottom: 200px;
 }
 .form-label{
     color: white;
@@ -125,4 +129,14 @@
     .Email{
         width: 100%;
     }
+}
+#persIMG{
+    text-align: right;
+}
+#persNAV{
+    margin-right: 100%;
+}
+.container-fluid{
+    align-items: center;
+    text-align: center;
 }
