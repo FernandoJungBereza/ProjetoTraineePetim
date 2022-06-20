@@ -1,5 +1,10 @@
-.body{
-    line-height: 4.0 !important;
+body{
+    line-height: 2;
+    background: #07bc0c;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .Fundo{
     background-color: #07bc0c;
@@ -18,6 +23,13 @@
     background-color: black;
     border-radius: 30px;
     margin-bottom: 200px;
+    padding: 20PX;
+}
+.img-fluid{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
 }
 .form-label{
     color: white;
@@ -39,13 +51,6 @@
     height: 100%;
     width: 100%;
     margin-top: 30px;
-}
-.form-image{
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    width: 100%;
-    display: inline;
 }
 .Text h6{
     align-items: center;
@@ -130,6 +135,48 @@
         width: 100%;
     }
 }
+@media(max-width:700px){
+    nav.navbar {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:450px){
+    .container-fluid{
+        display: block !important;
+        width: 100%;
+        align-items: center !important;
+    }
+    #colnav{
+        margin-top: 0px;
+        text-align: center !important;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #persNAV{
+        text-align: center !important;
+        margin-top: 0px;
+        margin-right: 0 !important;
+    }
+    #persIMG{
+        text-align: center !important;
+        margin-top: 0px;
+    }
+    #text{
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .navbar-brand{
+        margin-right: 0 !important;
+        font-size: 15px;
+    }
+    .ContainerPrimario{
+        padding: 10px;
+    }
+}
+
 #persIMG{
     text-align: right;
 }
