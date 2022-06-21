@@ -3,33 +3,43 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"/>
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="./css/resumodolivro.css"/>
+    <link rel="stylesheet" href="./css/resumodolivro.css" />
     <title>Document</title>
 </head>
 
-<body >
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../images/logomain.png" alt="" width="30" height="24" />
+                <img src="../images/resumolivropetim.png" alt="" width="30" height="24" />
+            </a>
+        </div>
+    </nav>
+
     <div class="containergeral">
         <form class="form">
+            <img src="../images/livropetim.png" alt="Livro corrente dessa semana" id="livropetim" />
             <div class="container">
-                <hr/>
+                <hr />
                 <div class="row">
                     <div class="col">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com"/>
+                                placeholder="name@example.com" />
                         </div>
                     </div>
                     <div class="col">
                         <label for="exampleFormControlInput1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com"/>
+                            placeholder="name@example.com" />
                     </div>
                 </div>
             </div>
@@ -39,7 +49,7 @@
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com"/>
+                                placeholder="name@example.com" />
                         </div>
                     </div>
                     <div class="col">
@@ -53,28 +63,39 @@
                             <option value="3">Five</option>
                         </select>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="name@example.com"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <hr/>
                 </div>
+
             </div>
             <div class="container">
-                <label for="floatingTextarea">Faça abaixo o seu resumo (no mínimo de 200 palavras) </label>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="container" id="pdflivro">
+                <img src="../images/paginas.jpg" alt="Número de páginas" id="paginas">
+            </div>
+            <div class="container" id="pdflivro">
+                <embed src="../images/resumo.pdf" class="pdf_livro" type="application/pdf">
+            </div>
+            <div class="container">
+                <label for="floatingTextarea">Faça abaixo o seu resumo (no mínimo de 200 palavras)
+                </label>
                 <textarea class="form-control" placeholder="Deixe seu comentário..." id="floatingTextarea">
                 </textarea>
-                <hr>
+            </div>
+            <hr />
+            <div class="container">
                 <button type="button" class="btn btn-success">Enviar</button>
             </div>
-        </form>
+    </div>
+    </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"

@@ -9,19 +9,14 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-
-.img-fluid {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.containergeral {
+body .containergeral {
   justify-content: center;
   align-items: center;
   margin: auto;
+  width: 60%;
 }
-.containergeral .form {
-  background-color: red;
+body .containergeral .form {
+  background-color: green;
   justify-content: center;
   align-items: center;
   margin: 10% 10% 5% 5%;
@@ -31,10 +26,32 @@ body {
   padding-right: 20px;
   border-radius: 20px;
 }
-.containergeral .form label {
+body .containergeral .form #pdflivro {
+  display: flex;
+  margin-bottom: 20px;
+}
+body .containergeral .form #livropetim {
+  width: 340px;
+  display: flex;
+  margin: auto;
+}
+@media (max-width: 763px) {
+  body .containergeral .form .container #livropetim {
+    margin-left: 20%;
+  }
+}
+body .containergeral .form .container #paginas {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+body .containergeral .form .container label {
   color: white;
 }
-.containergeral .form textarea {
+body .containergeral .form .container .pdf_livro {
+  margin: auto;
+}
+body .containergeral .form .container textarea {
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -43,7 +60,7 @@ body {
   display: flex;
   padding: 5px;
 }
-.containergeral .form hr {
+body .containergeral .form .container hr {
   border-color: white;
   border-width: 2px;
   width: 80%;
@@ -52,9 +69,9 @@ body {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.containergeral .form .btn {
+body .containergeral .form .container .btn {
   margin-top: 10px;
   justify-content: center;
   align-items: center;
-  color: blue;
+  color: rebeccapurple;
 }/*# sourceMappingURL=resumodolivro.css.map */
