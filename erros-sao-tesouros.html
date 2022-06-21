@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/erros-sao-tesouros.css">
+    <title>Document</title>
+</head>
+<body style="line-height: 2.0;">
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="col" id="colnav">
+        <a class="navbar-brand" href="#" id="persNAV"><button type="button" class="btn btn-secondary btn-lg" 
+          disabled style="background-color: transparent; color: black; border: none;"> < BACK</button></a>
+      </div>
+      <div class="col" id="colnav">
+        <a class="navbar-brand" href="#" id="text">ERROS SÃO TESOUROS</a>
+      </div>
+      <div class="col" id="persIMG">
+      <a class="navbar-brand" href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAYAAADj79JYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccl
+        lPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0
+        YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOT
+        k5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zL
+        mFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIEN
+        DIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QjhDQTQzQ0VDQkQyMTFFNkJENjE4OTdCNDU1OUQwMEUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QjhDQTQzQ0ZDQkQyMT
+        FFNkJENjE4OTdCNDU1OUQwMEUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCOENBNDNDQ0NCRDIxMUU2QkQ2MTg5N0I0NTU5RDAwRSIgc3RSZWY6ZG9jdW1lbnRJRD0ie
+        G1wLmRpZDpCOENBNDNDRENCRDIxMUU2QkQ2MTg5N0I0NTU5RDAwRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnK4ygcAAASYSURBVHja
+        7JxbSBRRGMd3NcuyUigIIiqyiFIyLDN7KSjIFzUIhLCgIkSInnrpoRuKRW+J9VQGEfQSQSlEFyykCyZlkBlidqesUFsxtbZy+n/sqdbNzZ3ZOXNm9nx/+HOoZs5+5zenOZeZb/yGYfhYzimJETBwBs5i4AycxcA
+        ZOIuBM3AGzmLgDJzFwBk4i4EzcA00wczBfr/fVcEbhnEMRS5ciNh+KozD3MGxWjHcWjgv7M8z4S9GSHsUxxY7Qy8Ax2+XCrD1YX9XZfxVNzyZgdvTGD/8NAxuNjwV7jVGq4KB29OYggiwF+DDxr+66wXgfjMgnR
+        o0EdN0FOvhjXARPDvGU6/AjfBN+DHiHXHboOka4IgjE8UmuBheY3YGNYY+w03wJbgBsfdpP0tBnanwDvieIVdB+CJcSGOCdvdwMejtgz8ZzqsN3gInuR44vALOiSOwJHgn/NFQr1Z4bZygcwQTacCHRLCdYh6cH
+        2tPwXGL4NuG+3QaTjfRYfJF2zvF+cMygQfHCLgHrhP3x5QogW6DBw336jm8KkrsKaJtdaKtkfomE3jLOIH3wWfhYjgNToZrDG+IOtNWAZliLxFt6RvnvBZp83DoAFwZ47FB+A280GMbeg9gGqdSYjz+IFwlZR4O
+        ZcNtvMk6SkvgDin74Vg8PEHRyoz/qBVMOsycYGUuepI5W2dhemmP46eIe/MMzWHTVsEcMBk2w9B0D8cPDKE4wZ3bV0uwpfdwMW2i3v0aTtMU9iA89/eGmNQeLsD30hXWvHdb2n20vD2L8zJQvILTNYPdD88Hi4CV
+        7VnLO2biB49o2Lurw2E71sPFlZ2Iot2Dq0mr6oKzwCEYuT0rvYeLC0A/3KhR7z4eCdus7NiEX6cR8OXxVhAXcPGwd7FGwFcqBe4LbdzopKx4n4nGC3yeZsBpy3aWSuC6zcFJGSqB67i0T1UJvF9D4AMqgQc0BB5Q
+        Cfy9ZrC/qgZOj9x0+oZTe7yZFvEu7Wlf+JlGwB+pXviQrmkE/LobgNdrAps2ra66AXiTJoNnPW6hA8qBI4jvPj1enaixoxJbMiAohQ/FC3hagsJuRtsLov2jYw8gwi5ED4rqBO7de+2qyLYcH9QzyRd63JaZYLDPo
+        91l/ztAWVIV6lqN4g6cnCCw38HLxnslwvFbStgFafaFXt9NBFHKYZnd2W8yviZxFD6XAMArALvJ7kptB44g6f/XLviGh2FXoh2nZFQs5Xsp4lUCSnC97EHY+xH/IVmVS/tADYKmrczNcJ1HQNMCrhxxS53eOpL6Tb
+        mZYjWa6lLYb+FSMehbaZ/6Hh5xoc74Qu903HchbBrgc63CtnR1nEr9Fomlu6PkOzot+gbLBscZKsy1p2+eBBSA7oK3Uw6pkk6r+GsSlIBaDj+UDHkEboCL7ARtBbibvpeyFEWJmE7m2bA9QPk3t8TUlL6X0i3
+        ztuyqWYqVni8GWcp/p5dFF/hCr9VRbhFl0aWEQaXp5wf4pTBtoNEA2IZ4fzg1DkoBznLxwofFwBk4A2cxcAbOYuAMnMXAGTgDZzFwBs5i4AycxcAZOANnOaRfAgwAyk6wmtZz3wQAAAAASUVORK5CYII=" 
+        style="width: 40px ; border-radius: 80px ; background-color: grey"></div></a>
+    </div>
+    </div>
+  </nav>
+<div class="Fundo"> 
+  <div class="logo">
+  <img loading="lazy" class="img-fluid" src="https://www.jotform.com/uploads/pormade/form_files/PETIM copiar3.61f9288e22b051.75019860.png" 
+  height="140" width="480px">
+  </div>
+  <div class="ContainerPrimario">
+    <img alt="" loading="lazy" class="img-fluid" style="border:0" 
+  src="https://www.jotform.com/uploads/pormade/form_files/ERROS.61f962fc84cf21.62430315.png" height="137px" width="680px" data-component="image">
+  <div>
+    <h6 id="titulo">Erros são tesouros quando bem evidenciados, mostrados e discutidos</h6>
+    <hr id="linha">
+  </div>
+    <form class="forms">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <label for="inputPassword5" class="form-label">Nome</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+          </div>
+          <div class="col">
+            <label for="inputPassword5" class="form-label">Crachá</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="inputPassword5" class="form-label">Cpf</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+          </div>
+          <div class="col">
+            <label for="inputPassword5" class="form-label">Unidade</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Favor Selecionar</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="Email">
+            <label for="inputPassword5" class="form-label">Email</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            <label for="inputPassword5" class="form-label" id="Email">Informe seu e-mail para receber o comprovante</label>
+          </div>
+        </div>
+        <hr id="linha2">
+        <div class="d-grid gap-2" id="personalizar">
+          <button class="btn btn-primary" id="submitButton" type="button">Próximo</button>
+        </div>
+      </div>
+      <br>
+    </form>
+  </div>
+</div>
+  <script src="/node_modules/@popperjs/core/dist/umd/popper.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+<footer>
+</footer>
+</html>
