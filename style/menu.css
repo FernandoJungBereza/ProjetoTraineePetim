@@ -106,3 +106,7 @@ img{
     font-size: 20px;
     color: rgb(46, 46, 46);
 }
+a{
+    text-decoration: none;
+    color: black;
+}
