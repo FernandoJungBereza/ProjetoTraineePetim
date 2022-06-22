@@ -9,52 +9,53 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-body .containergeral {
+
+.containergeral {
   justify-content: center;
   align-items: center;
   margin: auto;
   width: 60%;
 }
-body .containergeral .form {
-  background-color: rgb(49, 173, 49);
+.containergeral .form {
+  background-color: rgb(94, 94, 94);
   justify-content: center;
   align-items: center;
   margin: 10% 10% 5% 5%;
   width: 90%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   border-radius: 20px;
 }
-body .containergeral .form #pdflivro {
+@media (max-width: 280px) {
+  .containergeral .form .container {
+    width: 100px;
+  }
+}
+@media (max-width: 650px) {
+  .containergeral .form .col {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.containergeral .form #pdflivro {
   display: flex;
   margin-bottom: 20px;
 }
-body .containergeral .form #livropetim {
-  width: 340px;
-  display: flex;
-  margin: auto;
-}
-@media (max-width: 763px) {
-  body .containergeral .form .container #livropetim {
-    margin-left: 20%;
-  }
-}
-body .containergeral .form .container #paginas {
+.containergeral .form .container #paginas {
   width: 100%;
   justify-content: center;
   align-items: center;
 }
-body .containergeral .form .container label {
+.containergeral .form .container label {
   color: white;
 }
-body .containergeral .form .container .pdf_livro {
+.containergeral .form .container .pdf_livro {
   margin: auto;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 513px;
 }
-body .containergeral .form .container textarea {
+.containergeral .form .container textarea {
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -62,7 +63,7 @@ body .containergeral .form .container textarea {
   height: 513px;
   display: flex;
 }
-body .containergeral .form .container hr {
+.containergeral .form .container hr {
   border-color: white;
   border-width: 2px;
   width: 80%;
@@ -71,14 +72,29 @@ body .containergeral .form .container hr {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-body .containergeral .form .container .btn {
-  color: rebeccapurple;
-  background-color: #18bd5b;
-  margin-top: 10px;
-  -webkit-margin-start: 50px;
-          margin-inline-start: 50px;
-}
-body .containergeral .form .container .btn button {
+.containergeral .form .container button {
   justify-content: center;
   align-items: center;
+}
+.containergeral .form .container .btn {
+  color: rgb(235, 230, 240);
+  background-color: #060a08;
+  border-color: white;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  margin-inline-start: 40%;
+  min-width: 200px;
+  height: 48px;
+}
+
+#livropetim {
+  width: 20%;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+@media (max-width: 763px) {
+  #livropetim {
+    margin-left: 20%;
+  }
 }/*# sourceMappingURL=resumodolivro.css.map */
