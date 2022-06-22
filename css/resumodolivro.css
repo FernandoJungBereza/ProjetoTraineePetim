@@ -16,11 +16,10 @@ body .containergeral {
   width: 60%;
 }
 body .containergeral .form {
-  background-color: green;
+  background-color: rgb(49, 173, 49);
   justify-content: center;
   align-items: center;
   margin: 10% 10% 5% 5%;
-  border-left: 20%;
   width: 90%;
   padding-left: 20px;
   padding-right: 20px;
@@ -50,15 +49,18 @@ body .containergeral .form .container label {
 }
 body .containergeral .form .container .pdf_livro {
   margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 513px;
 }
 body .containergeral .form .container textarea {
   justify-content: center;
   align-items: center;
   margin: auto;
   width: 100%;
-  height: 40px;
+  height: 513px;
   display: flex;
-  padding: 5px;
 }
 body .containergeral .form .container hr {
   border-color: white;
@@ -70,8 +72,13 @@ body .containergeral .form .container hr {
   margin-bottom: 12px;
 }
 body .containergeral .form .container .btn {
+  color: rebeccapurple;
+  background-color: #18bd5b;
   margin-top: 10px;
+  -webkit-margin-start: 50px;
+          margin-inline-start: 50px;
+}
+body .containergeral .form .container .btn button {
   justify-content: center;
   align-items: center;
-  color: rebeccapurple;
 }/*# sourceMappingURL=resumodolivro.css.map */
