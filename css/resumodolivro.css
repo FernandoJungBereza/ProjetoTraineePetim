@@ -1,0 +1,100 @@
+body {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: url("../images/pormadebcgk.png") #000 no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.containergeral {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+.containergeral .form {
+  background-color: rgb(94, 94, 94);
+  justify-content: center;
+  align-items: center;
+  margin: 10% 10% 5% 5%;
+  width: 90%;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+@media (max-width: 280px) {
+  .containergeral .form .container {
+    width: 100px;
+  }
+}
+@media (max-width: 650px) {
+  .containergeral .form .col {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.containergeral .form #pdflivro {
+  display: flex;
+  margin-bottom: 20px;
+}
+.containergeral .form .container #paginas {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.containergeral .form .container label {
+  color: white;
+}
+.containergeral .form .container .pdf_livro {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 513px;
+}
+.containergeral .form .container textarea {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 513px;
+  display: flex;
+}
+.containergeral .form .container hr {
+  border-color: white;
+  border-width: 2px;
+  width: 80%;
+  margin: auto;
+  opacity: 1;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.containergeral .form .container button {
+  justify-content: center;
+  align-items: center;
+}
+.containergeral .form .container .btn {
+  color: rgb(235, 230, 240);
+  background-color: #060a08;
+  border-color: white;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  margin-inline-start: 40%;
+  min-width: 200px;
+  height: 48px;
+}
+
+#livropetim {
+  width: 20%;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+@media (max-width: 763px) {
+  #livropetim {
+    margin-left: 20%;
+  }
+}/*# sourceMappingURL=resumodolivro.css.map */
